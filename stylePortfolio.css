@@ -1,0 +1,190 @@
+body {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    /* background-image: url(img/_1019868.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-attachment: fixed; */
+    height: 100%;
+    
+}   
+.mainMenu {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: flex-end;
+}
+
+.mainMenu a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    
+}
+
+
+
+
+
+
+.contenidoCentro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* BOTON  */
+.buttonContact {
+    width: 100px;
+    margin-bottom: 40px;
+    border: solid black 1px;
+    padding: 5px;
+    background-color: rgba(189, 189, 189, 0.2);
+    margin: 40px;
+    color: black;
+    margin-bottom: 80px;
+}
+
+.buttonContact:hover {
+    background-color:  rgba(100, 100, 100, 0.2);
+}
+
+.buttonContact a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* FOOTER */
+footer {
+    height: 140px;
+    margin-bottom: 0;
+}
+
+.footerType {
+    font-size: 10px;
+}
+.ultimaLineaFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer div,p {
+    margin: 10px;
+}
+
+.ultimaLineaFooter h3 {
+    font-size: 8px;
+}
+
+/* footer a:hover {
+    transform: scale(1.2);
+} */
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+
+}
+    
+
+
+
+
+
+h1 {
+    margin: 40px 20px;
+}
+
+
+   
+
+/* Menor a 360px */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.textoBiografia {
+    font-size: 20px;
+}
+
+
+
+/* FORMULARIO */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 50px;
+}
+
+/* .subjectCaja {
+    height: 80px;
+} */
+
+input { 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* De 360 a 960px */
+/* @media screen and (min-width: 361px) {
+    .wrapper {
+      width: 360px auto;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .textoBiografia {
+        font-size: 20px;
+    } */
+
+    /* .imagenBiografia {
+        display:flex;
+        width: 40%;
+        margin: 10px;     
+    } */
+
+    /* .imagenBiografia img {
+        max-width: 300px;
+    } */
+
+    /* .textoBiografia {
+        display: flex;
+        width: 60%;
+        margin: 10px;
+    } */
+  
+
+  
+
+
