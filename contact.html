@@ -7,36 +7,49 @@
     <link rel="stylesheet" href="stylePortfolio.css">
 </head>
 <body>
-  <div>  
-        <nav class="mainMenu">
-            <a href="index.html">Home</a>
-            <a href="biografia.html">About</a>
-            <!-- <a href="works.html">Trabajos</a> -->
-            <a href="contact.html">Contact</a>
-        </nav> 
-    </div>
-    
-    <div>
+    <main class="wrapperContact">
+        <header class=cabecera>
+            <nav class="mainMenu">
+                           <a href="index.html">Home</a>
+                           <a href="biografia.html">About</a>
+                           <!-- <a href="works.html">Trabajos</a> -->
+                           <a href="contact.html">Contact</a>
+           </nav> 
+        </header>
+            
+            
         <form class="formulario">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name...">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-        
-            <label for="subject">Subject</label>
-            <input class="text" type="text" id="subject" name="subject" placeholder="Write something here...">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
 
-            <input type="submit" value="Submit">
-            </label>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email...">
+                
+                    <label for="subject">Subject</label>
+                    <input type="textarea" id="subject" name="subject" placeholder="Write something here...">
+
+                    <input class="buttonHover" type="submit" value="Submit">
+                    </label>
         </form>
-      </div>
+            
 
-      <footer>
-        <p class="footerType">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ex consectetur eos veniam sed ipsum? Fuga sed quis pariatur omnis. Blanditiis ipsum quo ratione magni placeat dolorum non nostrum mollitia!</p>
-            <h3>Coding by Manuel Chapela</h3>
-            <h3>© 2021</h3>
+        <footer>
+                <div class="footerLeft">
+                    <p class="footerSmallType">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ex consectetur eos veniam sed ipsum? Fuga sed quis pariatur omnis. Blanditiis ipsum quo ratione magni placeat dolorum non nostrum mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eaque dolorum dolores aliquam soluta aliquid repellendus dignissimos dicta. Voluptatibus iure quis tempora consequatur et necessitatibus eum ipsum voluptate veniam corporis? Lorem ipsum dolor </p>
+                    <h3 class="footerBigType">contact@manuelchapela.com</h3>
+                </div>
 
-    </footer>
+                <div class="footerRight">
+                    <p class="footerRightText">Coding by <br> Manuel Chapela <br>~ February ©2021 </p>
+                    <div class="footerRightIcons">
+                        <a class="enlacesFooterRight" href="https://www.linkedin.com/in/manuel-chapela-33b84780/?originalSubdomain=es"> LinkedIn</a>
+                        <a class="enlacesFooterRight" href="https://github.com/ManuelChapela/"> GitHub</a>
+                    </div>
+                </div>
+        </footer>
+    </main>
 </body>
 </html>
